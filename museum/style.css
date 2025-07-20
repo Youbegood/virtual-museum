@@ -1,0 +1,211 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #030303;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  background-color: #030303;
+  width: 100%;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Forum', serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.welcome {
+  position: relative;
+  height: 810px;
+  background-color: #030303;
+  overflow: hidden;
+}
+
+.welcome .wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 150px;
+  z-index: 1;
+}
+
+.welcome-heading {
+  margin: 0 0 26px;
+  font-family: "Forum", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.welcome-subheading {
+  display: block;
+  margin-bottom: 74px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.welcome-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 75px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #710707;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.welcome-button:hover {
+  background-color: #9d8665;
+}
+
+.welcome-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1000px;
+  height: 750px;
+  background: linear-gradient(
+      90deg,
+      #030303 0%,
+      rgba(0, 0, 0, 0.5) 16.19%,
+      rgba(0, 0, 0, 0) 30.73%
+    ),
+    url("assets/img/welcome-slider/1.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.welcome-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.welcome-slider-controls {
+  position: absolute;
+  bottom: 0;
+  right: calc((100vw - 1440px) / 13);
+  display: flex;
+  align-items: center;
+  width: 526px;
+  height: 120px;
+  padding-left: 74px;
+  background-color: #030303;
+  z-index: 2;
+}
+
+.welcome-slider-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 76px;
+  height: 40px;
+  margin-right: 55px;
+}
+
+.welcome-slider-numbers-span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.welcome-slider-paggination {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  height: 16px;
+  margin-right: 60px;
+}
+
+.welcome-slider-paggination-square {
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+}
+
+.welcome-slider-paggination-square-active {
+  background-color: #d2b183;
+}
+
+.welcome-slider-arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 8px;
+}
+
+.welcome-slider-arrow {
+  width: 30px;
+  height: 8px;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  line-height: 5px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background-color: #000000;
+}
+
+
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
